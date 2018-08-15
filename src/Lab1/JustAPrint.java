@@ -21,6 +21,7 @@ public class JustAPrint
         System.out.println("Who write this programme : "+author);
         //Calculate volume of a sphere
         double volume = (4/3)*PI*Math.pow(radius,2);//Math.pow(A,B)returns the value of the argument A raised to the power of the argument B
+        //Some example for printout
         System.out.println("Volume of a sphere is "+volume);
         System.out.printf("Volume of a sphere with 4 decimal point is %.4f \n",volume); //use printf to format your output, \n use to terminate that line
         System.out.printf("Good bye %S",author);//printf with %S return a string to be CAPITAL LETTER!!!
